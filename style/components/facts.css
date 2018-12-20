@@ -1,0 +1,53 @@
+.facts {
+	padding-bottom: 120px;
+	background-image: url( '../../img/night-city.jpg' );
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.facts_overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.facts__list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.facts__item {
+	text-align: center;
+}
+
+.facts__image-block {
+	display: inline-block;
+	width: 98px;
+	height: 98px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	padding: 30%;
+}
+
+.facts__item-title {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 45px;
+	font-weight: 500;
+}
+
+.facts__item-text {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
